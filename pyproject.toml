@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dq-checks"
+version = "0.1.0"
+description = "Lightweight data quality checks for PostgreSQL tables"
+readme = "README.md"
+requires-python = ">=3.12"
+license = "MIT"
+authors = [{name = "Eduard Dunaev"}]
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["src"]
